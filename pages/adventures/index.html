@@ -12,11 +12,134 @@
 <body>
   <!-- TODO: MODULE_ADVENTURES_GRID -->
   <!-- 1. Copy navigation bar HTML from Landing page document -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">QTrip</a>
 
-  <div class="container">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#redirect"
+        aria-controls="redirect"
+        aria-expanded="false"
+        aria-label="Expand Navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="redirect">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/adventures/index.html"
+              >Explore</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
     <div class="content">
       <!-- TODO: MODULE_ADVENTURES_GRID -->
       <!-- 1. Create the grid of adventures by adding child elements as required. -->
+      <h1 class="mb-3">Explore all adventures</h1>
+      <h4 class="mb-4">Here's a list of adventures that you can explore in the city</h4>
+
+      <div class="row gy-3">
+        <div class="col-6 col-lg-3">
+          <div class="card adventure-card">
+            <img class="card-img-top img-fluid" src="/assets/adventures/resort.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="d-flex justify-content-lg-between flex-column flex-lg-row align-items-center align-items-lg-stretch">
+                  <h4>Resort</h4>
+                  <h6>₹1200</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="card adventure-card">
+            <img class="card-img-top img-fluid" src="/assets/adventures/tower.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="d-flex justify-content-lg-between flex-column flex-lg-row align-items-center align-items-lg-stretch">
+                  <h4>Tower</h4>
+                  <h6>₹1800</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="card adventure-card">
+            <img class="card-img-top img-fluid" src="/assets/adventures/mount.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="d-flex justify-content-lg-between flex-column flex-lg-row align-items-center align-items-lg-stretch">
+                  <h4>Skiing</h4>
+                  <h6>₹1900</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="card adventure-card">
+            <img class="card-img-top img-fluid" src="/assets/adventures/university.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="d-flex justify-content-lg-between flex-column flex-lg-row align-items-center align-items-lg-stretch">
+                  <h4>University</h4>
+                  <h6>₹800</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="card adventure-card">
+            <img class="card-img-top img-fluid" src="/assets/adventures/market.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="d-flex justify-content-lg-between flex-column flex-lg-row align-items-center align-items-lg-stretch">
+                  <h4>Market</h4>
+                  <h6>₹600</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="card adventure-card">
+            <img class="card-img-top img-fluid" src="/assets/adventures/church.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="d-flex justify-content-lg-between flex-column flex-lg-row align-items-center align-items-lg-stretch">
+                  <h4>Monument</h4>
+                  <h6>₹1200</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="card adventure-card">
+            <img class="card-img-top img-fluid" src="/assets/adventures/canopy.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="d-flex justify-content-lg-between flex-column flex-lg-row align-items-center align-items-lg-stretch">
+                  <h4>Canopy</h4>
+                  <h6>₹1800</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="card adventure-card">
+            <img class="card-img-top img-fluid" src="/assets/adventures/beachside.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="d-flex justify-content-lg-between flex-column flex-lg-row align-items-center align-items-lg-stretch">
+                  <h4>Beach Gateway</h4>
+                  <h6>₹2200</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
